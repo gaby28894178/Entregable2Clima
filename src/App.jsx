@@ -56,7 +56,7 @@ function App() {
         .then(res => {
           setTemp(res.data)
           const celsius = (res.data.main.temp - 273.15).toFixed(1)
-          const farengei = (celsius * 9 / 5 * 32).toFixed(1)
+          const farengei = ((celsius * 9 / 5 )+(32)).toFixed(1)
           setTemp({ celsius, farengei })
           setWeather(res.data)
         })
