@@ -1,0 +1,11 @@
+.app{
+  background-image: url('/pexels-ryank-20042222.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(15, 15, 15);
+  
+}
